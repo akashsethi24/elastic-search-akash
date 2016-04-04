@@ -17,24 +17,24 @@ class CrudOperationSpec extends FunSuite {
   test("Count Total Students") {
 
     val res = obj.totalCount()
-    assert(res==3)
+    assert(res==1)
   }
 
   test("Update a Student") {
 
     val res = obj.updateJson("1","address","noida")
-    assert(res.getVersion==9)
+    assert(res.getVersion==11)
   }
 
   test("Delete Student") {
 
-    val res = obj.deleteJson("2")
+    val res = obj.deleteJson("1")
     assert(res.getTotalDeleted==1)
   }
 
   test("Read from a Json File"){
 
-    val res = obj.readFromFile("inputJson.json")
+    val res = obj.readFromFile("/home/akash/Assignment/Elastic_Search/src/main/resources/inputJson.json")
     assert(res!=null)
   }
 

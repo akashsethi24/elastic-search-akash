@@ -7,11 +7,11 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160404095736"/>
+		date="20160404101549"/>
 	<dependencies>
 		<module organisation="org.elasticsearch.plugin" name="delete-by-query">
 			<revision name="2.2.0" status="release" pubdate="20160202230050" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="33">
-				<metadata-artifact status="successful" details="" size="1990" time="1203" location="/home/akash/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/ivy-2.2.0.xml" searched="true" original-local-location="/home/akash/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/elasticsearch/plugin/delete-by-query/2.2.0/delete-by-query-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1990" time="1832" location="/home/akash/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/ivy-2.2.0.xml" searched="true" original-local-location="/home/akash/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/elasticsearch/plugin/delete-by-query/2.2.0/delete-by-query-2.2.0.pom"/>
 				<caller organisation="default" name="elastic_search_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="delete-by-query" type="jar" ext="jar" status="no" details="" size="31064" time="0" location="/home/akash/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/jars/delete-by-query-2.2.0.jar">

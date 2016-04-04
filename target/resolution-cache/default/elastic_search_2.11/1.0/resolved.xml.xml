@@ -4,7 +4,7 @@
 		module="elastic_search_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160404095736"
+		publication="20160404101549"
 	>
 		<description>
 		Elastic_Search

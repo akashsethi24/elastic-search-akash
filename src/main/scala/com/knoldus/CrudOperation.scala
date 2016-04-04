@@ -28,8 +28,7 @@ class CrudOperation {
     client.prepareIndex("college", "student", stu_id).setSource(stu_JSON).get()
 
   }
-
-  def totalCount(): Long = {
+def totalCount(): Long = {
 
     client.prepareSearch("college").execute().actionGet().getHits.totalHits()
 
@@ -65,5 +64,6 @@ class CrudOperation {
     pw.write(data.toString)
     true
   }
+  
 }
 

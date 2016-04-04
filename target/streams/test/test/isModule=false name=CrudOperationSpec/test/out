@@ -1,79 +1,96 @@
 [0m[[0minfo[0m] [0m[32mCrudOperationSpec:[0m[0m
-[0m[[0minfo[0m] [0m[31m- Add a Student *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:67)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.addJson(CrudOperation.scala:28)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$1.apply$mcV$sp(CrudOperationSpec.scala:13)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
-[0m[[0minfo[0m] [0m[31m- Count Total Students *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.totalCount(CrudOperation.scala:34)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$2.apply$mcV$sp(CrudOperationSpec.scala:19)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$2.apply(CrudOperationSpec.scala:17)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- Add a Student[0m[0m
+[0m[[0minfo[0m] [0m[32m- Count Total Students[0m[0m
 [0m[[0minfo[0m] [0m[31m- Update a Student *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:67)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.updateJson(CrudOperation.scala:40)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$3.apply$mcV$sp(CrudOperationSpec.scala:25)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  9 did not equal 5 (CrudOperationSpec.scala:26)[0m[0m
 [0m[[0minfo[0m] [0m[31m- Delete Student *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.deletebyquery.DeleteByQueryRequestBuilder.execute(DeleteByQueryRequestBuilder.java:172)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:67)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.deleteJson(CrudOperation.scala:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.transport.ActionNotFoundTransportException: No handler for action [indices:data/write/delete/by_query][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:237)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:114)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)[0m[0m
 [0m[[0minfo[0m] [0m[31m  ...[0m[0m
 [0m[[0minfo[0m] [0m[31m- Read from a Json File *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  java.io.FileNotFoundException: inputJson.json (No such file or directory)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.io.FileInputStream.open(Native Method)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.io.FileInputStream.<init>(FileInputStream.java:146)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.io.Source$.fromFile(Source.scala:91)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.io.Source$.fromFile(Source.scala:76)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.io.Source$.fromFile(Source.scala:54)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.readFromFile(CrudOperation.scala:52)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$5.apply$mcV$sp(CrudOperationSpec.scala:37)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$5.apply(CrudOperationSpec.scala:35)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$5.apply(CrudOperationSpec.scala:35)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes were available: [{Ravage 2099}{X6zfVmrcQ3Gm3vDHza7c4w}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService$RetryListener.onFailure(TransportClientNodesService.java:244)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.TransportService$3.run(TransportService.java:327)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.lang.Thread.run(Thread.java:745)[0m[0m
 [0m[[0minfo[0m] [0m[31m  ...[0m[0m
-[0m[[0minfo[0m] [0m[31m- Write  to a File *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: org.elasticsearch.transport.SendRequestTransportException: [Ravage 2099][localhost/127.0.0.1:9300][indices:data/write/bulk][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:323)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.TransportActionNodeProxy.execute(TransportActionNodeProxy.java:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient$1.doWithNode(TransportProxyClient.java:58)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:212)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.writeToFile(CrudOperation.scala:63)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.readFromFile(CrudOperation.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: org.elasticsearch.transport.NodeNotConnectedException: [Ravage 2099][localhost/127.0.0.1:9300] Node not connected[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.netty.NettyTransport.nodeChannel(NettyTransport.java:1132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.netty.NettyTransport.sendRequest(NettyTransport.java:819)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:312)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.TransportActionNodeProxy.execute(TransportActionNodeProxy.java:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient$1.doWithNode(TransportProxyClient.java:58)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:212)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Write  to a File *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.util.concurrent.ExecutionException: NoNodeAvailableException[None of the configured nodes were available: [{Ravage 2099}{X6zfVmrcQ3Gm3vDHza7c4w}{127.0.0.1}{localhost/127.0.0.1:9300}]]; nested: SendRequestTransportException[[Ravage 2099][localhost/127.0.0.1:9300][indices:data/read/search]]; nested: NodeNotConnectedException[[Ravage 2099][localhost/127.0.0.1:9300] Node not connected];[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:290)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:277)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:116)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.writeToFile(CrudOperation.scala:62)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$6.apply$mcV$sp(CrudOperationSpec.scala:43)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$6.apply(CrudOperationSpec.scala:41)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$6.apply(CrudOperationSpec.scala:41)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes were available: [{Ravage 2099}{X6zfVmrcQ3Gm3vDHza7c4w}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService$RetryListener.onFailure(TransportClientNodesService.java:244)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.TransportService$3.run(TransportService.java:327)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.lang.Thread.run(Thread.java:745)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: org.elasticsearch.transport.SendRequestTransportException: [Ravage 2099][localhost/127.0.0.1:9300][indices:data/read/search][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:323)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.TransportActionNodeProxy.execute(TransportActionNodeProxy.java:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient$1.doWithNode(TransportProxyClient.java:58)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:212)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.writeToFile(CrudOperation.scala:62)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: org.elasticsearch.transport.NodeNotConnectedException: [Ravage 2099][localhost/127.0.0.1:9300] Node not connected[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.netty.NettyTransport.nodeChannel(NettyTransport.java:1132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.netty.NettyTransport.sendRequest(NettyTransport.java:819)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:312)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.TransportActionNodeProxy.execute(TransportActionNodeProxy.java:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient$1.doWithNode(TransportProxyClient.java:58)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:212)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
 [0m[[0minfo[0m] [0m[31m  ...[0m[0m
