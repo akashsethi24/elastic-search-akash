@@ -1,0 +1,79 @@
+[0m[[0minfo[0m] [0m[32mCrudOperationSpec:[0m[0m
+[0m[[0minfo[0m] [0m[31m- Add a Student *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.addJson(CrudOperation.scala:28)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$1.apply$mcV$sp(CrudOperationSpec.scala:13)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Count Total Students *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.totalCount(CrudOperation.scala:34)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$2.apply$mcV$sp(CrudOperationSpec.scala:19)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$2.apply(CrudOperationSpec.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Update a Student *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.updateJson(CrudOperation.scala:40)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$3.apply$mcV$sp(CrudOperationSpec.scala:25)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Delete Student *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.deletebyquery.DeleteByQueryRequestBuilder.execute(DeleteByQueryRequestBuilder.java:172)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.deleteJson(CrudOperation.scala:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Read from a Json File *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.io.FileNotFoundException: inputJson.json (No such file or directory)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.io.FileInputStream.open(Native Method)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.io.FileInputStream.<init>(FileInputStream.java:146)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.io.Source$.fromFile(Source.scala:91)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.io.Source$.fromFile(Source.scala:76)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.io.Source$.fromFile(Source.scala:54)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.readFromFile(CrudOperation.scala:52)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$5.apply$mcV$sp(CrudOperationSpec.scala:37)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$5.apply(CrudOperationSpec.scala:35)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$5.apply(CrudOperationSpec.scala:35)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Write  to a File *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9300}][0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:290)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:207)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:286)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.knoldus.CrudOperation.writeToFile(CrudOperation.scala:63)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$6.apply$mcV$sp(CrudOperationSpec.scala:43)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at CrudOperationSpec$$anonfun$6.apply(CrudOperationSpec.scala:41)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
